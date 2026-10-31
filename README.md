@@ -1,4 +1,4 @@
-## NestJS-Hybrid-Application
+## NestJS Hybrid Application (REST API + TCP Microservice)
 
 ####
 ```bash
