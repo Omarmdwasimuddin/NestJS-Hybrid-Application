@@ -16,7 +16,7 @@ npm i @nestjs/microservices@^11
 ---
 
 #### `src/main.ts`
-```bash
+```ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { Transport, MicroserviceOptions } from '@nestjs/microservices';
@@ -42,7 +42,7 @@ bootstrap();
 
 
 #### `src/app.controller.ts`
-```bash
+```ts
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 import { MessagePattern } from '@nestjs/microservices';
