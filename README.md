@@ -65,7 +65,7 @@ export class AppController {
 ```
 ---
 
-#### Run the Application
+#### Expected Response: OUTPUT
 <img width="740" height="146" alt="image" src="https://github.com/user-attachments/assets/6f32f451-b82c-418b-9b7b-c50a70b981d6" />
 
 ---
