@@ -59,7 +59,7 @@ export class AppController {
   @MessagePattern({ cmd: 'get_status'})
   getStatus(data: any): string{
     console.log('Microservice is recieved', data);
-    return 'Microservice is Active'
+    return 'Microservice is Active';
   }
 }
 ```
