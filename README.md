@@ -1,1 +1,7 @@
-# NestJS-Hybrid-Application
+## NestJS-Hybrid-Application
+
+####
+```bash
+nest new hybrid-app
+```
+---
