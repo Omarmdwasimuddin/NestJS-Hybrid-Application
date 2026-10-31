@@ -1,6 +1,6 @@
 ## NestJS Hybrid Application (REST API + TCP Microservice)
 
-####
+#### Create a NestJS Project
 ```bash
 nest new hybrid-app
 ```
@@ -9,13 +9,13 @@ cd hybrid-app
 ```
 ---
 
-####
+#### Install NestJS Microservices Package
 ```bash
 npm i @nestjs/microservices@^11
 ```
 ---
 
-#### `src/main.ts`
+#### Configure Hybrid Application: `src/main.ts`
 ```ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
@@ -41,7 +41,7 @@ bootstrap();
 ---
 
 
-#### `src/app.controller.ts`
+#### Implement REST API and TCP Message Handler: `src/app.controller.ts`
 ```ts
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
@@ -65,7 +65,7 @@ export class AppController {
 ```
 ---
 
-#### OUTPUT
+#### Run the Application
 <img width="740" height="146" alt="image" src="https://github.com/user-attachments/assets/6f32f451-b82c-418b-9b7b-c50a70b981d6" />
 
 ---
